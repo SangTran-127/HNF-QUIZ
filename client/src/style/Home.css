@@ -1,0 +1,51 @@
+.labels {
+    width: 100%;
+    padding: 2.5% 0%;
+    margin: 8px 0;
+    text-align: left;
+}
+
+.test-container {
+    margin: auto;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 40%;
+    padding: 5% 5% 5% 5%;
+    line-height: 22px;
+    opacity: 0.95;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.input {
+    width: 100%;
+    padding: 2.5% 2.5%;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+.home {
+  height: 91vh;
+  background: url('../components/Home/background.png');
+  background-repeat: no-repeat;
+  /* height: 100%; */
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+
+}
+  @media screen and (max-width: 1000px) {
+    .test-container {
+      margin: auto;
+      background: white;
+      border: 2px solid black;
+      border-radius: 10px;
+      width: 80%;
+      padding: 5% 5% 5% 5%;
+      line-height: 22px;
+    }
+  }
+  

@@ -1,0 +1,52 @@
+#id {
+    position: relative;
+    height: 90vh;
+    /* background-color: #B8DFD8; */
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: #B8DFD8; */
+}
+.signin_wrapper {
+    margin: auto;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 40%;
+    padding: 5% 5% 5% 5%;
+    line-height: 22px;
+    text-align: center;
+}
+
+
+.signin_wrapper h2 {
+    color: black;
+    font-size: 3rem;
+}
+.progress {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input {
+    width: 100%;
+    padding: 2.5% 2.5%;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.error_label {
+    color: #F44336;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.success_label {
+    color: #98c5e9;
+    font-weight: 600;
+    margin: 10px 0px;
+}
